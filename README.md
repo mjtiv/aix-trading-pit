@@ -1,9 +1,8 @@
 # .aix Payloads: The New Digital Trading Pit
 
 <!-- Smaller version -->
-<p align="center">
-  <img src="wall_street_rule_bound_image.png" width="500" alt="Digital Trading Pit">
-</p>
+<img src="wall_street_rule_bound_image.png" width="500" alt="Digital Trading Pit">
+
 
 ## From Shouting Pits to Payloads
 
