@@ -1,7 +1,7 @@
 # .aix Payloads: The New Digital Trading Pit
 
-#<!-- Full-size image -->
-#![AI trading with guardrails](wall_street_rule_bound_image.png)
+<!-- Full-size image -->
+![AI trading with guardrails](wall_street_rule_bound_image.png)
 
 <!-- Smaller version -->
 <p align="center">
