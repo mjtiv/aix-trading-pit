@@ -1,5 +1,7 @@
 # .aix Payloads: The New Digital Trading Pit
 
+![AI trading with guardrails](wall_street_rule_bound_image.png)
+
 ## From Shouting Pits to Payloads
 
 In the old days of Wall Street, the trading floor was pure chaos.  
@@ -91,6 +93,26 @@ Not chaos seizures, but programmable heartbeats.
    Hedge funds can swap `.aix` modules like Lego blocks.  
    Retail could someday download safe, scoped “strategy packs.”
 
+
+---
+
+## Enforcing Safety with GIN
+
+`.aix` is not only about programmable trading chaos—it’s about **guardrails**.
+
+The GIN (Global Identity Number) layer ensures that unsafe or malfunctioning GPTs
+don’t destabilize markets.  
+
+![GIN Enforcement Diagram](GIN_Enforcement_Wallstreet.png)
+
+**Scenarios:**
+- ✅ Valid handshake → trades allowed (normal operation)  
+- ⛔ No handshake → GPT blocked before execution  
+- 🚨 Handshake succeeds but GPT misbehaves → GPU shutdown + user/provider notified  
+
+This enforcement makes `.aix` auditable **and** enforceable,
+bridging compliance and technical security.
+
 ---
 
 ## The Vision
@@ -116,3 +138,4 @@ Just as Docker reshaped software, `.aix` could reshape markets.
 
 The question isn’t *if* AI agents will trade.  
 It’s **how we package them so chaos is fun — and safe.**
+
