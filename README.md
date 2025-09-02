@@ -1,9 +1,12 @@
 # .aix Payloads: The New Digital Trading Pit
 
-<!-- Smaller version -->
 <p align="center">
-<img src="wall_street_rule_bound_image.png" width="500" alt="Digital Trading Pit">
+  <img src="wall_street_rule_bound_image.png" width="480" alt="AI trading with guardrails">
 </p>
+
+**Jump to:** [From Shouting Pits](#from-shouting-pits-to-payloads) • [What Makes `.aix` Different](#what-makes-aix-different) • [Flash Swarms](#false-demand--flash-swarms) • [Timing Rules](#timing-rules-inside-aix) • [Why It Matters](#why-this-matters) • [Security (GIN)](#enforcing-safety-with-gin) • [Vision](#the-vision) • [Closing](#closing-thought)
+
+---
 
 ## From Shouting Pits to Payloads
 
@@ -38,7 +41,7 @@ Think **Docker for AI agents.** If algos were brittle scripts, `.aix` payloads a
 
 ---
 
-## The Problem: False Demand & Flash Swarms
+## False Demand & Flash Swarms
 
 Unfettered GPTs firing trades every millisecond could swamp markets:  
 - Thousands of agents chasing the same momentum tick  
@@ -49,7 +52,7 @@ This is the modern equivalent of 500 traders screaming “BUY!” at once.
 
 ---
 
-## The Fix: Timing Rules Inside `.aix`
+## Timing Rules Inside `.aix`
 
 Here’s where scoped payloads shine: **timing + throttle logic can live inside the file itself.**
 
@@ -96,7 +99,6 @@ Not chaos seizures, but programmable heartbeats.
    Hedge funds can swap `.aix` modules like Lego blocks.  
    Retail could someday download safe, scoped “strategy packs.”
 
-
 ---
 
 ## Enforcing Safety with GIN
@@ -106,15 +108,16 @@ Not chaos seizures, but programmable heartbeats.
 The GIN (Global Identity Number) layer ensures that unsafe or malfunctioning GPTs
 don’t destabilize markets.  
 
-![GIN Enforcement Diagram](GIN_Enforcement_Wallstreet.png)
+<p align="center">
+  <img src="GIN_Enforcement_Wallstreet.png" width="600" alt="GIN enforcement scenarios: allowed, blocked, GPU shutdown">
+</p>
 
 **Scenarios:**
 - ✅ Valid handshake → trades allowed (normal operation)  
 - ⛔ No handshake → GPT blocked before execution  
 - 🚨 Handshake succeeds but GPT misbehaves → GPU shutdown + user/provider notified  
 
-This enforcement makes `.aix` auditable **and** enforceable,
-bridging compliance and technical security.
+This enforcement makes `.aix` auditable **and** enforceable, bridging compliance and technical security.
 
 ---
 
@@ -141,4 +144,3 @@ Just as Docker reshaped software, `.aix` could reshape markets.
 
 The question isn’t *if* AI agents will trade.  
 It’s **how we package them so chaos is fun — and safe.**
-
