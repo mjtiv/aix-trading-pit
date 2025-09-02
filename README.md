@@ -2,6 +2,8 @@
 
 ![AI trading with guardrails](wall_street_rule_bound_image.png)
 
+<img src="6a5a908b-9609-474a-a6fc-6924cb857a2a.png" alt="Digital Trading Pit" width="500"/>
+
 ## From Shouting Pits to Payloads
 
 In the old days of Wall Street, the trading floor was pure chaos.  
