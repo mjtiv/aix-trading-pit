@@ -1,11 +1,8 @@
 # .aix Payloads: The New Digital Trading Pit
 
-<!-- Full-size image -->
-![AI trading with guardrails](wall_street_rule_bound_image.png)
-
 <!-- Smaller version -->
 <p align="center">
-  <img src="wall_street_rule_bound_image.png" width="400" alt="Digital Trading Pit">
+  <img src="wall_street_rule_bound_image.png" width="500" alt="Digital Trading Pit">
 </p>
 
 ## From Shouting Pits to Payloads
