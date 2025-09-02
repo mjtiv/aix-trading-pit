@@ -109,7 +109,7 @@ The GIN (Global Identity Number) layer ensures that unsafe or malfunctioning GPT
 don’t destabilize markets.  
 
 <p align="center">
-  <img src="GIN_Enforcement_Wallstreet.png" width="750" alt="GIN enforcement scenarios: allowed, blocked, GPU shutdown">
+  <img src="GIN_Enforcement_Wallstreet.png" width="800" alt="GIN enforcement scenarios: allowed, blocked, GPU shutdown">
 </p>
 
 **Scenarios:**
